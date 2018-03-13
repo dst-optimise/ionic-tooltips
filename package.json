@@ -1,6 +1,6 @@
 {
-  "_from": "ionic-tooltips-dst-optimised@2.0.5",
-  "_id": "ionic-tooltips-dst-optimised@2.0.5",
+  "_from": "ionic-tooltips-dst-optimised@2.0.6",
+  "_id": "ionic-tooltips-dst-optimised@2.0.6",
   "_inBundle": false,
   "_integrity": "sha512-y3G6W7Pp967nQnJg4m6tSDESPu2yoE8AjgaXGZwrLpKbnl7JAgvvkjFNyMHuNol8a4Yta45cCkpFzfhPi6ehzg==",
   "_location": "/ionic-tooltips-dst-optimised",
@@ -8,20 +8,20 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "ionic-tooltips-dst-optimised@2.0.5",
+    "raw": "ionic-tooltips-dst-optimised@2.0.6",
     "name": "ionic-tooltips-dst-optimised",
     "escapedName": "ionic-tooltips-dst-optimised",
-    "rawSpec": "2.0.5",
+    "rawSpec": "2.0.6",
     "saveSpec": null,
-    "fetchSpec": "2.0.5"
+    "fetchSpec": "2.0.6"
   },
   "_requiredBy": [
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/ionic-tooltips-dst-optimised/-/ionic-tooltips-dst-optimised-2.0.5.tgz",
+  "_resolved": "https://registry.npmjs.org/ionic-tooltips-dst-optimised/-/ionic-tooltips-dst-optimised-2.0.6.tgz",
   "_shasum": "1dc384ae7b6d84f0549d23af8b2de42573441577",
-  "_spec": "ionic-tooltips-dst-optimised@2.0.5",
+  "_spec": "ionic-tooltips-dst-optimised@2.0.6",
   "_where": "C:\\Users\\Computer-2\\source\\repos\\box2\\src\\client",
   "author": {
     "name": "Ibby Hadeed",
@@ -85,5 +85,5 @@
     "test:watch": "karma start ./test-config/karma.conf.js"
   },
   "typings": "dist/index.d.ts",
-  "version": "2.0.5"
+  "version": "2.0.6"
 }
