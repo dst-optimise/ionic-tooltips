@@ -8,7 +8,7 @@ var Tooltip = (function () {
         this.platform = platform;
         this._componentFactoryResolver = _componentFactoryResolver;
         this.event = 'click';
-        this.duration = 3000;
+        this.duration = 1000;
         this._arrow = false;
         this._navTooltip = false;
         this._canShow = true;
@@ -116,10 +116,31 @@ var Tooltip = (function () {
             }
         });
     };
+/*
     Tooltip.prototype.onClick = function () {
-        if (this.event === 'click')
-            this.trigger();
+        if (this.event === 'click') {
+            if (this.active) {
+                this._removeTooltip();
+                this.trigger();
+            }
+            else {
+                this.trigger();
+            }
+        }
     };
+    */
+
+    Tooltip.prototype.onClick = function () {
+        if (this.event === 'click') {
+            if (this.active) {
+                this.active = false;
+            }
+            else {
+                this.active = true;
+            }
+        }
+    };
+
     Tooltip.prototype.onPress = function () {
         if (this.event === 'press')
             this.trigger();
@@ -227,4 +248,5 @@ Tooltip.propDecorators = {
     'onMouseEnter': [{ type: HostListener, args: ['mouseenter',] },],
     'onMouseLeave': [{ type: HostListener, args: ['mouseleave',] },],
 };
+
 //# sourceMappingURL=tooltip.directive.js.map

@@ -18,7 +18,7 @@ export declare class Tooltip implements AfterViewInit {
     private tooltipElement;
     private tooltipTimeout;
     private _canShow;
-    private _active;
+    _active;
     constructor(el: ElementRef, appRef: ApplicationRef, platform: Platform, _componentFactoryResolver: ComponentFactoryResolver);
     /**
      * Show the tooltip immediately after initiating view if set to
@@ -47,6 +47,6 @@ export declare class Tooltip implements AfterViewInit {
     onMouseLeave(): void;
     private _createTooltipComponent();
     private _getTooltipPosition();
-    private _removeTooltip();
+    _removeTooltip();
     private _resetTimer();
 }

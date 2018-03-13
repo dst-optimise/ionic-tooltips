@@ -1,26 +1,27 @@
 {
-  "_from": "ionic-tooltips@^2.0.1",
-  "_id": "ionic-tooltips@2.0.1",
+  "_from": "ionic-tooltips-dst-optimised@2.0.5",
+  "_id": "ionic-tooltips-dst-optimised@2.0.5",
   "_inBundle": false,
-  "_integrity": "sha512-dBtzvNSGqQxtSorixZdulZut+MZ7p54V8agO8LOV/FmJNIkSb/Q/8E4B/wea4qk53Nua04lWu/iH7H8GRvMPbg==",
-  "_location": "/ionic-tooltips",
+  "_integrity": "sha512-y3G6W7Pp967nQnJg4m6tSDESPu2yoE8AjgaXGZwrLpKbnl7JAgvvkjFNyMHuNol8a4Yta45cCkpFzfhPi6ehzg==",
+  "_location": "/ionic-tooltips-dst-optimised",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "ionic-tooltips@^2.0.1",
-    "name": "ionic-tooltips",
-    "escapedName": "ionic-tooltips",
-    "rawSpec": "^2.0.1",
+    "raw": "ionic-tooltips-dst-optimised@2.0.5",
+    "name": "ionic-tooltips-dst-optimised",
+    "escapedName": "ionic-tooltips-dst-optimised",
+    "rawSpec": "2.0.5",
     "saveSpec": null,
-    "fetchSpec": "^2.0.1"
+    "fetchSpec": "2.0.5"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/ionic-tooltips/-/ionic-tooltips-2.0.1.tgz",
-  "_shasum": "1c293fd383f2ae901d020ebf15e068120579fa79",
-  "_spec": "ionic-tooltips@^2.0.1",
+  "_resolved": "https://registry.npmjs.org/ionic-tooltips-dst-optimised/-/ionic-tooltips-dst-optimised-2.0.5.tgz",
+  "_shasum": "1dc384ae7b6d84f0549d23af8b2de42573441577",
+  "_spec": "ionic-tooltips-dst-optimised@2.0.5",
   "_where": "C:\\Users\\Computer-2\\source\\repos\\box2\\src\\client",
   "author": {
     "name": "Ibby Hadeed",
@@ -68,7 +69,7 @@
   ],
   "license": "MIT",
   "main": "dist/index.js",
-  "name": "ionic-tooltips",
+  "name": "ionic-tooltips-dst-optimised",
   "peerDependencies": {
     "ionic-angular": "^3.0.0",
     "@angular/animations": "*"
@@ -84,5 +85,5 @@
     "test:watch": "karma start ./test-config/karma.conf.js"
   },
   "typings": "dist/index.d.ts",
-  "version": "2.0.1"
+  "version": "2.0.5"
 }
