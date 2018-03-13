@@ -116,14 +116,10 @@ var Tooltip = (function () {
             }
         });
     };
-
     Tooltip.prototype.onClick = function () {
-        if (this.event === 'click' && this.active === true)
-            {this.active = false;}
-        else if (this.event === 'click' && this.active === false)
-            {this.trigger();}
+        if (this.event === 'click')
+            this.trigger();
     };
-
     Tooltip.prototype.onPress = function () {
         if (this.event === 'press')
             this.trigger();
@@ -231,5 +227,4 @@ Tooltip.propDecorators = {
     'onMouseEnter': [{ type: HostListener, args: ['mouseenter',] },],
     'onMouseLeave': [{ type: HostListener, args: ['mouseleave',] },],
 };
-
 //# sourceMappingURL=tooltip.directive.js.map
